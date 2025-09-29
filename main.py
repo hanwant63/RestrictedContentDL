@@ -63,9 +63,9 @@ def track_task(coro):
 @bot.on_message(filters.command("start") & filters.private)
 async def start(_, message: Message):
     welcome_text = (
-        "👋 **Welcome to Media Downloader Bot!**\n\n"
-        "I can grab photos, videos, audio, and documents from any Telegram post.\n"
-        "Just send me a link (paste it directly or use `/dl <link>`),\n"
+        "**Welcome Save Restricted content Bot!**\n\n"
+        "It can save Anything.\n"
+        "Just send a link,\n"
         "or reply to a message with `/dl`.\n\n"
         "ℹ️ Use `/help` to view all commands and examples.\n"
         "🔒 Make sure the user client is part of the chat.\n\n"
@@ -73,7 +73,7 @@ async def start(_, message: Message):
     )
 
     markup = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("Update Channel", url="https://t.me/itsSmartDev")]]
+        [[InlineKeyboardButton("Update Channel", url="https://t.me/Wolfy004")]]
     )
     await message.reply(welcome_text, reply_markup=markup, disable_web_page_preview=True)
 
