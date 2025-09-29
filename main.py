@@ -97,8 +97,8 @@ async def help_command(_, message: Message):
         "➤ **Stats**\n"
         "   – Send `/stats` to view current status:\n\n"
         "**Example**:\n"
-        "  • `/dl https://t.me/itsSmartDev/547`\n"
-        "  • `https://t.me/itsSmartDev/547`"
+        "  • `/dl https://t.me/Wolfy004`\n"
+        "  • `https://t.me/Wolfy004`"
     )
     
     markup = InlineKeyboardMarkup(
